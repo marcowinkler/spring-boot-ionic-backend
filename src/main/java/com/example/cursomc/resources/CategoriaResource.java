@@ -1,4 +1,4 @@
-package com.example.demo.resources;
+package com.example.cursomc.resources;
 
 import java.util.ArrayList;
 import java.util.List;

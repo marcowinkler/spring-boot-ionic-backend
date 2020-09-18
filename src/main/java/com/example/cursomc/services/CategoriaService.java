@@ -1,10 +1,13 @@
 package com.example.cursomc.services;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.cursomc.domain.Categoria;
 import com.example.cursomc.repositories.CategoriaRepository;
+import com.example.cursomc.services.exceptions.ObjectNotFoundException;
 
 @Service
 public class CategoriaService {
@@ -14,9 +17,14 @@ public class CategoriaService {
 
 	public Categoria buscar(Integer id) {
 
-		Categoria cat = repo.findById(id).get();
+		Optional<Categoria> obj = repo.findById(id);
 
-		return cat;
+		//if (obj == null) {
+			//throw new ObjectNotFoundException("Objeto não encontrado :" + id + " Tipo" + Categoria.class.getName());
+		//}
+
+		//return obj.orElse(null);
+		return obj.orElseThrow(() -> new ObjectNotFoundException("Objeto não encontrado: " + id + " Tipo: " + Categoria.class.getName()));
 	}
 
 }

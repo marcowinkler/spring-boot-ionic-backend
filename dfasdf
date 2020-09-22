@@ -1,0 +1,59 @@
+[33mcommit 66e05a40f058659aef69316428673a672c8d1f01[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: marcowinkler <marcowinkler10@gmail.com>
+Date:   Sat Sep 19 00:36:21 2020 -0300
+
+    pedido estado pagamento
+
+[33mcommit cf1cc4c1819819bb97c2d598df7b8c458f0c3a2e[m
+Author: marcowinkler <marcowinkler10@gmail.com>
+Date:   Fri Sep 18 23:16:41 2020 -0300
+
+    endpoint clientes
+
+[33mcommit b41bd57ef0fa8d0e350d02bda9d8abf46480ad5b[m
+Author: marcowinkler <marcowinkler10@gmail.com>
+Date:   Fri Sep 18 23:03:55 2020 -0300
+
+    cliente tipocliente telefones endereco
+
+[33mcommit 5111e98b977074b1eb6a58965eb63f6daf1d668c[m
+Author: marcowinkler <marcowinkler10@gmail.com>
+Date:   Thu Sep 17 23:14:15 2020 -0300
+
+    Estado e Cidade
+
+[33mcommit 9192f3c222dc096a8b8159b4b7c854025d34273d[m
+Author: marcowinkler <marcowinkler10@gmail.com>
+Date:   Thu Sep 17 22:50:40 2020 -0300
+
+    Ajustes no EndPoint /Categorias/id
+
+[33mcommit ea38a5808162cc1bb4f04078cdacf85afcfb955d[m
+Author: marcowinkler <marcowinkler10@gmail.com>
+Date:   Wed Sep 16 22:06:41 2020 -0300
+
+    criando operacao de instanciacao
+
+[33mcommit 456d351552eb85eb99a9f522261e625afbd1656e[m
+Author: marcowinkler <marcowinkler10@gmail.com>
+Date:   Tue Sep 15 17:19:26 2020 -0300
+
+    banco de dados h2 e criacao automatica da base de dados
+
+[33mcommit 5ed1f8e96e5e68a5ca356f9664d0f1408cab0676[m
+Author: marcowinkler <marcowinkler10@gmail.com>
+Date:   Tue Sep 15 16:13:46 2020 -0300
+
+    testando a primeira classe de dominio - categoria
+
+[33mcommit ca4721ed93599d127453d144f6c9e5effeef44a1[m
+Author: marcowinkler <marcowinkler10@gmail.com>
+Date:   Tue Sep 15 10:47:55 2020 -0300
+
+    testado
+
+[33mcommit 863d21ba3c3da48689ed1cc231c8f9681e6d5301[m
+Author: marcowinkler <marcowinkler10@gmail.com>
+Date:   Tue Sep 15 10:25:53 2020 -0300
+
+    Projeto criado

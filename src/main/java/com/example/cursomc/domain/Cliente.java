@@ -14,7 +14,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 import com.example.cursomc.domain.enums.TipoCliente;
-import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
@@ -28,7 +28,6 @@ public class Cliente {
 	private String cpfOuCnpj;
 	private Integer tipo;
 
-	@JsonManagedReference
 	@OneToMany(mappedBy = "cliente")
 	public List<Endereco> enderecos = new ArrayList<>();
 
@@ -36,7 +35,7 @@ public class Cliente {
 	@CollectionTable(name = "TELEFONE")
 	private Set<String> Telefones = new HashSet<>();
 
-	@JsonBackReference
+	@JsonIgnore
 	@OneToMany(mappedBy = "cliente")
 	private List<Pedido> pedidos = new ArrayList<>();
 
@@ -54,7 +53,7 @@ public class Cliente {
 
 	public Integer getId() {
 		return id;
-	}
+	}@JsonManagedReference
 
 	public void setId(Integer id) {
 		this.id = id;

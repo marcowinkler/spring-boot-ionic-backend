@@ -16,7 +16,7 @@ public class PagamentoComCartao extends Pagamento {
 
 	public PagamentoComCartao(Integer id, EstadoPagamento estado, Pedido pedido, Integer numeroParcelas) {
 		super(id, estado, pedido);
-		// TODO Auto-generated constructor stub
+
 		this.numeroDeParcelas = numeroParcelas;
 	}
 
@@ -26,8 +26,6 @@ public class PagamentoComCartao extends Pagamento {
 
 	public void setNumeroDeParcelas(Integer numeroDeParcelas) {
 		this.numeroDeParcelas = numeroDeParcelas;
-	}
-	
-	
+	}	
 
 }
